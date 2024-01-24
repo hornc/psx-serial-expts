@@ -1,0 +1,41 @@
+
+![PSX serial connector model](psx_Serial_001.png)
+
+This is a 3d printable connector that fits into the end of an official PSX serial / link cable to enable DIY serial connections.
+
+I didn't want to cut up / ruin an existing link cable, or solder extra connectors to my PSX.
+
+I used trimmed resistor leads for the contacts. Bend the ends just under 1mm from the end to hook into the holes at the end which fits into the cable.
+Not sure how critical this is, but I made sure there was a slight upward curve in the wires at this end to ensure they made contact.
+
+The other ends fit under the "bridge" and can be soldered to. Attach the wires just before the bridge with a thin run of hot-melt glue.
+
+Test connectivity with a multimeter. The PSX link cable swaps TX and RX (pins 5 and 8), so you'll need to check pin 5 of this connector to pin 8 of the other end etc.
+
+Connect to a FTDI FT232RL serial-to-USB adapter board (3.3V) or similar. I only used 3 wires (RX, TX, and GND), but this should work with more wires if you need them.
+
+
+## Print settings
+Mine is printed on a Snapmaker 2.0 A350 using the "Precise & Strong" preset.
+ It printed first time. It was meant to be a resolution test for the holes and ridges, but it worked well enough to get me connected.
+
+* Material: PLA, tri-chromatic, (what I had on the machine at the time)
+* Layer height: 0.16mm
+* Line width: 0.4mm
+* Speed: 50mm/s
+* Wall thickness: 1.2mm
+* Infill Density: 25% (although at this scale I think it's effectively 100%. Everything is a wall. You'll want it as strong as possible anyway.)
+
+
+No guarantees that your printer will be able to print this fine. I was surprised it worked, but it appears to be working well.
+The walls between the 8 wire channels are only one filament width thick, and the edging around the holes is only two filament widths thick.
+I barely had to clean out the holes, they were well formed, but I poked through a piece of wire just to be sure they were completely clean.
+
+The cable can be handled and plugged / unplugged. The strip of hot melt glue seems neccesary with the current design.
+It's not yet an enclosed cable, and the FTDI board is just hanging loose between the PSX and my laptop, but the USB + link cable gives plenty of room to move around, and the whole setup doesn't feel fragile, although it might break if you dropped something on it...
+Certainly I have not had any problems with lose connections or transmissions interrupted because of bad soldering or loose fit, so this is working perfectly for now.
+
+Future designs might include a proper enclosed cable, and/or a version that plugs directly into the back of the PSX. Currently this _requires_ a PSX link cable.
+
+**TODO:** Add a pinout and wiring diagram, and a photo of the printed part in use.
+

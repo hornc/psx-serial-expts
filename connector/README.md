@@ -1,5 +1,5 @@
 
-![PSX serial connector model](psx_Serial_001.png)
+![PSX serial connector model](image/psx_Serial_001.png)
 
 This is a 3d printable connector that fits into the end of an official PSX serial / link cable to enable DIY serial connections.
 
@@ -37,5 +37,29 @@ Certainly I have not had any problems with lose connections or transmissions int
 
 Future designs might include a proper enclosed cable, and/or a version that plugs directly into the back of the PSX. Currently this _requires_ a PSX link cable.
 
-**TODO:** Add a pinout and wiring diagram, and a photo of the printed part in use.
+## Pinout
 
+![PSX serial connector pinout](image/pinout.png)
+
+Using the pinout from here: https://hitmen.c02.at/html/psx_siocable.html
+, but looking at the connector from the back, from "inside the PSX":
+
+* 8 RXD (receive; Rose wire)
+* 7 +3.3V
+* 6 DSR
+* 5 TXD (transmit; Tan wire)
+* 4 CTS
+* 3 DTR
+* 2 GND (ground; Black wire)
+* 1 RTS
+
+![PSX serial connector](image/con_01.png)
+![PSX serial connector in link cable](image/con_02.png)
+
+This photo shows everything linked, with the connector insterted into the PSX link cable. The FTDI board is conected to PC/laptop by standard USB cable (not shown).
+![Link cable, connector, and FDTI board connected](image/con_03.jpg)
+
+**Note:** the PSX link cable handles the switching of transmit -> receive. Without the full pre-made cable, the wiring would need to be swapped.
+* The RXD from connector pin 8 (rose wire) is soldered to the FTDI breakout's RXD.
+* The TXD from connector pin 5 (tan wire) goes to the FTDI's TXD.
+* Pin 2, Ground (black wire) goes to GND on the FTDI board.

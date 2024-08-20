@@ -3,6 +3,8 @@
 
 This is a 3d printable connector that fits into the end of an official PSX serial / link cable to enable DIY serial connections.
 
+Available on Thingiverse as [thing:6737062](https://www.thingiverse.com/thing:6737062)
+
 I didn't want to cut up / ruin an existing link cable, or solder extra connectors to my PSX.
 
 I used trimmed resistor leads for the contacts. Bend the ends just under 1mm from the end to hook into the holes at the end which fits into the cable.
@@ -31,7 +33,7 @@ No guarantees that your printer will be able to print this fine. I was surprised
 The walls between the 8 wire channels are only one filament width thick, and the edging around the holes is only two filament widths thick.
 I barely had to clean out the holes, they were well formed, but I poked through a piece of wire just to be sure they were completely clean.
 
-The cable can be handled and plugged / unplugged. The strip of hot melt glue seems neccesary with the current design.
+The cable can be handled and plugged / unplugged. The strip of hot melt glue seems necessary with the current design.
 It's not yet an enclosed cable, and the FTDI board is just hanging loose between the PSX and my laptop, but the USB + link cable gives plenty of room to move around, and the whole setup doesn't feel fragile, although it might break if you dropped something on it...
 Certainly I have not had any problems with lose connections or transmissions interrupted because of bad soldering or loose fit, so this is working perfectly for now.
 

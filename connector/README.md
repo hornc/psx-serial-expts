@@ -1,3 +1,7 @@
+[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+
+This work (3D model) is licensed under a
+[Creative Commons Attribution-ShareAlike 3.0 International License][cc-by-sa].
 
 ![PSX serial connector model](image/psx_Serial_001.png)
 
@@ -65,3 +69,9 @@ This photo shows everything linked, with the connector insterted into the PSX li
 * The RXD from connector pin 8 (rose wire) is soldered to the FTDI breakout's RXD.
 * The TXD from connector pin 5 (tan wire) goes to the FTDI's TXD.
 * Pin 2, Ground (black wire) goes to GND on the FTDI board.
+
+[![CC BY-SA 3.0][cc-by-sa-image]][cc-by-sa]
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/3.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/3.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%203.0-lightgrey.svg
